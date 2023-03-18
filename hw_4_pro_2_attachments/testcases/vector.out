@@ -1,0 +1,5 @@
+Invalid free in file vector.c, line 69
+Summary:
+24 bytes memory not freed (allocated in file vector.c, line 14)
+512 bytes memory not freed (allocated in file vector.c, line 27)
+2 allocation records not freed (536 bytes in total).
