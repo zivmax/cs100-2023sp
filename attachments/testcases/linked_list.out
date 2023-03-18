@@ -1,0 +1,40 @@
+34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+Invalid free in file linked_list.c, line 85
+size == 18
+Invalid free in file linked_list.c, line 58
+Invalid free in file linked_list.c, line 59
+Summary:
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+16 bytes memory not freed (allocated in file linked_list.c, line 19)
+17 allocation records not freed (272 bytes in total).
