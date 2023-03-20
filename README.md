@@ -6,16 +6,16 @@ Before you starting to use the testcase privided by the course, you should set u
 
 For C 
 ```
--fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer -ggdb3 -O0 -std=c17 -Wall -Werror -Wextra -Wshadow -Wpedantic
+-fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer -ggdb3 -O2 -std=c17 -Wall -Werror -Wextra -Wshadow -Wpedantic
 ```
 
 For C++
 ```
--fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer -ggdb3 -O0 -std=c++17 -Wall -Werror -Wextra -Wshadow -Wpedantic
+-fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer -ggdb3 -O2 -std=c++17 -Wall -Werror -Wextra -Wshadow -Wpedantic
 ```
 
-## A refer configuration of VScode on Linux (wsl): 
-### tasks.json in .vscode dir
+## A refer Debug configuration of VScode on Linux (wsl): 
+### `tasks.json` in `.vscode` dir
 ```json
 {
     "tasks": [
@@ -58,8 +58,8 @@ For C++
         },
         {
             "type": "cppbuild",
-            "label": "C: gcc-11 build active file",
-            "command": "/usr/bin/gcc-11",
+            "label": "C: gcc build active file",
+            "command": "/usr/bin/gcc",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -97,9 +97,87 @@ For C++
     "version": "2.0.0"
 }
 ```
+### `lanuch.json` in `.vscode` dir
+```josn
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GDB 调试",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+        },
+    ]
+}
+```
+
 
 ## A refer configuration of VScode on Windows:
-### tasks.json in .vscode dir
+### `tasks.json` in `.vscode` dir
 ```json
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe 生成活动文件",
+            "command": "D:\\Program Files\\mingw64\\bin\\gcc.exe", // ！！！ replace this with your compiler path
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "-Wall",
+                "-Wextra",
+                "-Werror",
+                "-Wshadow",
+                "-Wpedantic",
+                "-ggdb3",
+                "-O0",
+                "-std=c17",
+                "-g",
+                "-lm",
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
+```
 
+### `lanuch.json` in `.vscode` dir
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GDB 调试",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\Program Files\\mingw64\\bin\\gbd.exe", // ！！！ replace this with your compiler path
+        },
+    ]
+}
 ```
