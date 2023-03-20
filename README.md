@@ -2,17 +2,27 @@
 
 ## Notes before testing you programs
 
+Personally, I strongly recommend using WSL as the environment, else, use Visual studio on windows.
+
+because you should ensure your program won't cause any mem leak, and they provides tools for checking it
+
 Before you starting to use the testcase privided by the course, you should set up your compiler's exacuting arguments to the following
 
 For C 
 ```bash
--fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer -ggdb3 -O2 -std=c17 -Wall -Werror -Wextra -Wshadow -Wpedantic
+-ggdb3 -O2 -std=c17 -Wall -Werror -Wextra -Wshadow -Wpedantic
 ```
 
 For C++
 ```bash
--fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer -ggdb3 -O2 -std=c++17 -Wall -Werror -Wextra -Wshadow -Wpedantic
+-ggdb3 -O2 -std=c++17 -Wall -Werror -Wextra -Wshadow -Wpedantic
 ```
+
+if you are using Linux (WSL), the fsantitazer should be used too
+```bash
+-fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer 
+```
+
 
 ## A refer Debug configuration of VScode on Linux (wsl): 
 ### `tasks.json` in `.vscode` dir
