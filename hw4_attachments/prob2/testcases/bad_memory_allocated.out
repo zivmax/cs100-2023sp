@@ -1,0 +1,4 @@
+Invalid free in file bad_memory_allocated.c, line 38
+Summary:
+4294967296 bytes memory not freed (allocated in file bad_memory_allocated.c, line 12)
+1 allocation records not freed (4294967296 bytes in total).

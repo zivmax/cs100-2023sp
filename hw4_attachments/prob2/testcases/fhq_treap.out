@@ -1,0 +1,102 @@
+914241
+914241
+2
+639471
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 31
+842266
+6927
+868271
+297728
+568845
+639471
+11
+286545
+234811
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 31
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 31
+9
+639471
+531105
+531105
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 31
+21
+781729
+136381
+2
+639776
+531105
+568845
+317437
+35
+781729
+735265
+6
+568845
+134689
+481883
+42
+293813
+45
+568845
+326601
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 31
+317437
+37685
+Summary:
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
+51 allocation records not freed (1632 bytes in total).
