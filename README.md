@@ -176,7 +176,7 @@ For C++
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\Program Files\\mingw64\\bin\\gbd.exe", // ！！！ replace this with your compiler path
+            "miDebuggerPath": "D:\\Program Files\\mingw64\\bin\\gbd.exe", // ！！！ replace this with your debugger path
         },
     ]
 }
