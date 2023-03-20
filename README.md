@@ -5,12 +5,12 @@
 Before you starting to use the testcase privided by the course, you should set up your compiler's exacuting arguments to the following
 
 For C 
-```
+```bash
 -fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer -ggdb3 -O2 -std=c17 -Wall -Werror -Wextra -Wshadow -Wpedantic
 ```
 
 For C++
-```
+```bash
 -fsanitize=signed-integer-overflow -g -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer -ggdb3 -O2 -std=c++17 -Wall -Werror -Wextra -Wshadow -Wpedantic
 ```
 
@@ -98,7 +98,7 @@ For C++
 }
 ```
 ### `lanuch.json` in `.vscode` dir
-```josn
+```json
 {
     "version": "0.2.0",
     "configurations": [
