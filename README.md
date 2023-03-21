@@ -121,7 +121,7 @@ if you are using Linux (WSL), the fsantitazer should be used too
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
         },
@@ -184,7 +184,7 @@ if you are using Linux (WSL), the fsantitazer should be used too
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "D:\\Program Files\\mingw64\\bin\\gbd.exe", // ！！！ replace this with your debugger path
         },
