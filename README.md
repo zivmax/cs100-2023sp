@@ -116,7 +116,7 @@ if you are using Linux (WSL), the fsantitazer should be used too
             "name": "GDB 调试",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
