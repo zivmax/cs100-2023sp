@@ -2,8 +2,7 @@
 914241
 2
 639471
-Invalid free in file fhq_treap.c, line 30
-Invalid free in file fhq_treap.c, line 31
+Invalid free in file fhq_treap.c, line 29
 842266
 6927
 868271
@@ -13,16 +12,13 @@ Invalid free in file fhq_treap.c, line 31
 11
 286545
 234811
-Invalid free in file fhq_treap.c, line 30
-Invalid free in file fhq_treap.c, line 31
-Invalid free in file fhq_treap.c, line 30
-Invalid free in file fhq_treap.c, line 31
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
 9
 639471
 531105
 531105
-Invalid free in file fhq_treap.c, line 30
-Invalid free in file fhq_treap.c, line 31
+Invalid free in file fhq_treap.c, line 29
 21
 781729
 136381
@@ -43,60 +39,212 @@ Invalid free in file fhq_treap.c, line 31
 45
 568845
 326601
-Invalid free in file fhq_treap.c, line 30
-Invalid free in file fhq_treap.c, line 31
+Invalid free in file fhq_treap.c, line 29
 317437
 37685
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
+Invalid free in file fhq_treap.c, line 30
+Invalid free in file fhq_treap.c, line 29
 Summary:
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-32 bytes memory not freed (allocated in file fhq_treap.c, line 19)
-51 allocation records not freed (1632 bytes in total).
+8 bytes memory not freed (allocated in file fhq_treap.c, line 34)
+1 allocation records not freed (8 bytes in total).
