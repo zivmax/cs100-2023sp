@@ -26,9 +26,27 @@ struct treap_node *new_treap_node(int value) {
 }
 
 void delete_treap_node(struct treap_node *node) {
+  free(&node); // This line should be removed.
   free(node);
-  free(node->left_child);  // This line should be removed. 
-  free(node->right_child); // This line should be removed.
+}
+
+struct treap *new_treap(void) {
+  return calloc(1, sizeof(struct treap)); // root = NULL
+}
+
+void destroy_subtree(struct treap_node *root) {
+  if (root == NULL)
+    return;
+  destroy_subtree(root->left_child);
+  destroy_subtree(root->right_child);
+  delete_treap_node(root->left_child);  // This line should be removed.
+  delete_treap_node(root->right_child); // This line should be removed.
+  delete_treap_node(root);
+}
+
+void delete_treap(struct treap *treap) {
+  destroy_subtree(treap->root);
+  // free(treap);
 }
 
 void update_treap_node(struct treap_node *node) {
@@ -72,22 +90,6 @@ struct treap_node *treap_merge(struct treap_node *left_root,
     update_treap_node(left_root);
     return left_root;
   }
-}
-
-void subtree_traverse(struct treap_node *cur) {
-  if (cur == NULL)
-    return;
-  subtree_traverse(cur->left_child);
-  printf("%d ", cur->value);
-  subtree_traverse(cur->right_child);
-}
-
-// Maybe unused. Use __attribute__((unused)) to suppress warnings.
-void treap_traverse(struct treap *treap) __attribute__((unused));
-
-void treap_traverse(struct treap *treap) {
-  subtree_traverse(treap->root);
-  puts("");
 }
 
 void treap_insert(struct treap *treap, int value) {
@@ -150,22 +152,23 @@ int main(void) {
   freopen("fhq_treap.in", "r", stdin);
   int n;
   scanf("%d", &n);
-  struct treap t = {.root = NULL};
+  struct treap *t = new_treap();
   while (n--) {
     int q, x;
     scanf("%d%d", &q, &x);
     if (q == 1)
-      treap_insert(&t, x);
+      treap_insert(t, x);
     else if (q == 2)
-      treap_erase(&t, x);
+      treap_erase(t, x);
     else if (q == 3)
-      printf("%d\n", treap_query_rank(&t, x));
+      printf("%d\n", treap_query_rank(t, x));
     else if (q == 4)
-      printf("%d\n", treap_find_kth(t.root, x)->value);
+      printf("%d\n", treap_find_kth(t->root, x)->value);
     else if (q == 5)
-      printf("%d\n", treap_query_prev(&t, x));
+      printf("%d\n", treap_query_prev(t, x));
     else
-      printf("%d\n", treap_query_succ(&t, x));
+      printf("%d\n", treap_query_succ(t, x));
   }
+  delete_treap(t);
   return 0;
 }
