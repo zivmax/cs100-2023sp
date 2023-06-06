@@ -126,7 +126,7 @@ void clearScreen()
     SetConsoleCursorPosition(hStdOut, homeCoords);
 
 #elif defined(OS_LINUX) || defined(OS_MAC)
-    std::cout << "\033[2J;"
+    std::cout << "\033[2J"
               << "\033[1;1H"; // Clears screen and moves cursor to home pos on POSIX systems
 #endif
 }
