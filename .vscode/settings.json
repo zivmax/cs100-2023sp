@@ -1,0 +1,9 @@
+{
+    "Codegeex.EnableExtension": false,
+    "files.associations": {
+        "random": "c",
+        "math.h": "c",
+        "limits": "c",
+        "string_view": "c"
+    }
+}
