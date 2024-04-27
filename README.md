@@ -1,6 +1,42 @@
-# CS100-2023-Spring-homework
+# CS100: C and C++ Programming
 
-## Notes before testing you programs
+*By [ShanghaiTech University](https://www.shanghaitech.edu.cn/)*
+## Course Introduction
+Programming is an essential skill across many engineering disciplines. 
+
+This course is designed for beginning undergraduate students and focuses on the programming languages C and C++. These powerful low-level languages are ideal for the efficient implementation of resource-intensive programs. 
+
+The course spans 16 weeks and emphasizes practical skills, highlighted by weekly recitations. 
+In these sessions, groups of approximately 20-30 students will review and expand on class material through interactive coding exercises. 
+
+The grading structure is heavily weighted towards practical experience, with the majority of the score derived from homework. A midterm exam provides a traditional assessment of knowledge.
+
+## Learning Goals
+
+### Cognitive Competence:
+- Learn C and C++ features, including recent standards.
+- Understand various programming paradigms such as sequential, object-oriented, recursive, and functional programming.
+- Explore polymorphism and the standard template library.
+- Study concurrency and modern C++ standards.
+- Acquire knowledge in cross-compilation, profiling, debugging, and interfacing.
+
+### Comprehensive Qualities:
+- Develop problem-solving and modular thinking skills.
+- Acquire practical engineering skills for solving real-world problems efficiently.
+
+## Instructional Pedagogy
+- **Lectures:** 4 hours per week for 16 weeks.
+- **Recitations:** 2 hours per week for 15 weeks, starting from week 2.
+- **Homework Assignments:** 8 total; 4 initial assignments of smaller volume, followed by 4 larger and more challenging assignments.
+- **Midterm Exam:** One exam to assess understanding.
+- **Quizzes:** Two quizzes to monitor class attendance.
+- **Online Forum:** Piazza used for answering questions.
+- **Office Hours:** Provided by both the Professor and Teaching Assistants.
+
+
+## Technique Notes 
+
+### Notes before testing you programs
 
 Personally, I strongly recommend using WSL as the environment, else, use Visual studio on windows.
 
@@ -24,8 +60,8 @@ if you are using Linux (WSL), the fsantitazer should be used too
 ```
 
 
-## A refer Debug configuration of VScode on Linux (wsl): 
-### `tasks.json` in `.vscode` dir
+### A refer Debug configuration of VScode on Linux (wsl): 
+#### `tasks.json` in `.vscode` dir
 ```json
 {
     "tasks": [
@@ -107,7 +143,7 @@ if you are using Linux (WSL), the fsantitazer should be used too
     "version": "2.0.0"
 }
 ```
-### `lanuch.json` in `.vscode` dir
+#### `lanuch.json` in `.vscode` dir
 ```json
 {
     "version": "0.2.0",
@@ -130,8 +166,8 @@ if you are using Linux (WSL), the fsantitazer should be used too
 ```
 
 
-## A refer configuration of VScode on Windows:
-### `tasks.json` in `.vscode` dir
+### A refer configuration of VScode on Windows:
+#### `tasks.json` in `.vscode` dir
 ```json
 {
     "tasks": [
@@ -170,7 +206,7 @@ if you are using Linux (WSL), the fsantitazer should be used too
 }
 ```
 
-### `lanuch.json` in `.vscode` dir
+#### `lanuch.json` in `.vscode` dir
 ```json
 {
     "version": "0.2.0",
